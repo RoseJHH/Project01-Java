@@ -223,7 +223,7 @@ public class Arena {
                     countB++;
                 }
                 if (countA > countB) {
-                    return teamB;
+                    return teamA;
                 } else if (countA < countB) {
                     return teamB;
                 } else if (countA == countB) {

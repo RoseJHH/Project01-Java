@@ -111,11 +111,8 @@ public class Player {
      */
     public boolean isAlive() {
         //INSERT YOUR CODE HERE
-        if (currentHP <= 0) {
-            return false;
-        }
 
-        return true;
+        return (currentHP > 0);
     }
 
     /**
